@@ -1,8 +1,3 @@
-Here's a complete `README.md` file tailored for your **combined synthetic CCDA data generator + Google Trends tracker** project:
-
----
-
-```markdown
 # 🧬 Health Disparities Research: CCDA Synthetic Data Generator + Google Trends Tracker
 
 This project supports research on **AI in healthcare** and **health disparities** by generating:
@@ -94,7 +89,4 @@ You can use this data for:
 ## 📝 License
 
 This project is provided for academic, educational, and research purposes under the MIT License.
-```
-
----
 
