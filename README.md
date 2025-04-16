@@ -16,7 +16,9 @@ This project supports research on **AI in healthcare** and **health disparities*
   - Medical Conditions
   - Medications
   - Procedures
+  - Clinic Notes
 - Uses **Google Trends** to track search interest for key topics (e.g., AI bias, predictive health)
+- Provides a Jupyter Notebook (`ccda_and_trends_analysis.ipynb`) for interactive data generation and analysis
 
 ---
 
@@ -25,7 +27,7 @@ This project supports research on **AI in healthcare** and **health disparities*
 Make sure Python 3 is installed. Then install dependencies:
 
 ```bash
-pip install pandas faker lxml pytrends
+pip install pandas faker lxml pytrends matplotlib
 ```
 
 ---
@@ -33,11 +35,16 @@ pip install pandas faker lxml pytrends
 ## 🚀 How to Run
 
 1. Place your `healthcare_dataset.csv` in the project folder.
-2. Run the script:
+2. Open the Jupyter Notebook:
 
 ```bash
-python generate_ccda_with_trends.py
+jupyter notebook ccda_and_trends_analysis.ipynb
 ```
+
+3. Follow the instructions in the notebook to:
+   - Generate synthetic CCDA XML files
+   - Analyze Google Trends data
+   - Visualize trends and correlations
 
 ---
 
@@ -76,6 +83,12 @@ You can use this data for:
 - Examine chronic condition frequency by ethnicity or insurance status
 - Explore how billing amounts or admission types vary by demographic
 - Use Google Trends data to support your argument on ethical implications
+
+---
+
+## 📢 Important Note on Google Trends Data
+
+The Python package `pytrends` may encounter issues connecting to the Google Trends API. If this occurs, manually download the data from the Google Trends website and upload it to the project folder. Ensure the file is named `multiTimeline.csv` or update the notebook accordingly.
 
 ---
 
