@@ -1,4 +1,0 @@
-pandas
-faker
-lxml
-pytrends
